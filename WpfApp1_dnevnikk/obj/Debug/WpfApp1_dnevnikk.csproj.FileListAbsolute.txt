@@ -1,0 +1,15 @@
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\bin\Debug\WpfApp1_dnevnikk.exe.config
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\bin\Debug\WpfApp1_dnevnikk.exe
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\bin\Debug\WpfApp1_dnevnikk.pdb
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\WpfApp1_dnevnikk.csprojAssemblyReference.cache
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\MainWindow.g.cs
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\App.g.cs
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\WpfApp1_dnevnikk_MarkupCompile.cache
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\WpfApp1_dnevnikk_MarkupCompile.lref
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\MainWindow.baml
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\WpfApp1_dnevnikk.g.resources
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\WpfApp1_dnevnikk.Properties.Resources.resources
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\WpfApp1_dnevnikk.csproj.GenerateResource.cache
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\WpfApp1_dnevnikk.csproj.CoreCompileInputs.cache
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\WpfApp1_dnevnikk.exe
+C:\Users\Юрий\source\repos\WpfApp1_dnevnikk\WpfApp1_dnevnikk\obj\Debug\WpfApp1_dnevnikk.pdb

@@ -1,0 +1,85 @@
+﻿<Window x:Class="WpfApp1_dnevnikk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1_dnevnikk"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="588.32" Width="928.01">
+    <Grid>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Группа " HorizontalAlignment="Left" Margin="234,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата рождения" HorizontalAlignment="Left" Margin="347,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fio" HorizontalAlignment="Left" Height="150" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox x:Name="gruppa" HorizontalAlignment="Left" Height="150" Margin="234,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="datar" HorizontalAlignment="Left" Height="150" Margin="347,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="fiod" HorizontalAlignment="Left" Height="23" Margin="459,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox x:Name="gruppad" HorizontalAlignment="Left" Height="23" Margin="683,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="datard" HorizontalAlignment="Left" Height="23" Margin="796,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <Label Content="Добавление" HorizontalAlignment="Left" Margin="459,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="459,36,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата рождения" HorizontalAlignment="Left" Margin="796,36,0,0" VerticalAlignment="Top"/>
+        <Label Content="Группа" HorizontalAlignment="Left" Margin="683,36,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="dobs" Content="Добавить" HorizontalAlignment="Left" Margin="796,90,0,0" VerticalAlignment="Top" Width="95" Click="dobs_Click"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата" HorizontalAlignment="Left" Margin="67,200,0,0" VerticalAlignment="Top"/>
+        <Label Content="Тема" HorizontalAlignment="Left" Margin="167,200,0,0" VerticalAlignment="Top"/>
+        <Label Content="Оценка" HorizontalAlignment="Left" Margin="330,200,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="id" HorizontalAlignment="Left" Height="150" Margin="10,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="data" HorizontalAlignment="Left" Height="149" Margin="67,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="ocenka" HorizontalAlignment="Left" Height="149" Margin="330,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="tema" HorizontalAlignment="Left" Height="149" Margin="167,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Дата" HorizontalAlignment="Left" Margin="516,111,0,0" VerticalAlignment="Top"/>
+        <Label Content="Тема" HorizontalAlignment="Left" Margin="616,111,0,0" VerticalAlignment="Top"/>
+        <Label Content="Оценка" HorizontalAlignment="Left" Margin="779,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="459,111,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="idd" HorizontalAlignment="Left" Height="23" Margin="459,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="temad" HorizontalAlignment="Left" Height="23" Margin="616,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="ocenkad" HorizontalAlignment="Left" Height="23" Margin="779,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="datad" HorizontalAlignment="Left" Height="23" Margin="516,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="dobo" Content="Добавить" HorizontalAlignment="Left" Margin="796,165,0,0" VerticalAlignment="Top" Width="95" Click="dobo_Click"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="459,255,0,0" VerticalAlignment="Top"/>
+        <Label Content="Группа" HorizontalAlignment="Left" Margin="683,255,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата рождения" HorizontalAlignment="Left" Margin="796,255,0,0" VerticalAlignment="Top"/>
+        <Label Content="Изменение" HorizontalAlignment="Left" Margin="459,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.361,-1.923"/>
+        <TextBox x:Name="fioe" HorizontalAlignment="Left" Height="23" Margin="459,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox x:Name="gruppae" HorizontalAlignment="Left" Height="23" Margin="683,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="datare" HorizontalAlignment="Left" Height="23" Margin="796,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <Label Content="Введите старые данные:" HorizontalAlignment="Left" Margin="459,229,0,0" VerticalAlignment="Top"/>
+        <Label Content="Введите новые данные:" HorizontalAlignment="Left" Margin="459,304,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fione" HorizontalAlignment="Left" Height="23" Margin="459,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox x:Name="gruppane" HorizontalAlignment="Left" Height="23" Margin="683,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="datarne" HorizontalAlignment="Left" Height="23" Margin="796,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="sohf" Content="Сохранить" HorizontalAlignment="Left" Margin="459,358,0,0" VerticalAlignment="Top" Width="219" Click="sohf_Click"/>
+        <Button x:Name="sohdr" Content="Сохранить" HorizontalAlignment="Left" Margin="796,358,0,0" VerticalAlignment="Top" Width="95" Click="sohdr_Click"/>
+        <Button x:Name="sohg" Content="Сохранить" HorizontalAlignment="Left" Margin="683,358,0,0" VerticalAlignment="Top" Width="108" Click="sohg_Click"/>
+        <Label Content="Введите старые данные:" HorizontalAlignment="Left" Margin="459,387,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата" HorizontalAlignment="Left" Margin="516,413,0,0" VerticalAlignment="Top"/>
+        <Label Content="Тема" HorizontalAlignment="Left" Margin="616,413,0,0" VerticalAlignment="Top"/>
+        <Label Content="Оценка" HorizontalAlignment="Left" Margin="779,413,0,0" VerticalAlignment="Top"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="459,413,0,0" VerticalAlignment="Top"/>
+        <Label Content="Введите новые данные:" HorizontalAlignment="Left" Margin="459,462,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ide" HorizontalAlignment="Left" Height="23" Margin="459,439,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="datae" HorizontalAlignment="Left" Height="23" Margin="516,439,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="temae" HorizontalAlignment="Left" Height="23" Margin="616,439,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="ocenkae" HorizontalAlignment="Left" Height="23" Margin="779,439,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="ocenkane" HorizontalAlignment="Left" Height="23" Margin="779,491,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="temane" HorizontalAlignment="Left" Height="23" Margin="616,491,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="datane" HorizontalAlignment="Left" Height="23" Margin="516,491,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="idne" HorizontalAlignment="Left" Height="23" Margin="459,491,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <Button x:Name="soht" Content="Сохранить" HorizontalAlignment="Left" Margin="616,519,0,0" VerticalAlignment="Top" Width="158" Click="soht_Click"/>
+        <Button x:Name="sohid" Content="Сохр." HorizontalAlignment="Left" Margin="459,519,0,0" VerticalAlignment="Top" Width="52" Click="sohid_Click"/>
+        <Button x:Name="soho" Content="Сохр." HorizontalAlignment="Left" Margin="779,519,0,0" VerticalAlignment="Top" Width="52" Click="soho_Click"/>
+        <Button x:Name="sohd" Content="Сохранить" HorizontalAlignment="Left" Margin="516,519,0,0" VerticalAlignment="Top" Width="95" Click="sohd_Click"/>
+        <Label Content="Удаление" HorizontalAlignment="Left" Margin="10,403,0,0" VerticalAlignment="Top"/>
+        <Label Content="Введите данные:" HorizontalAlignment="Left" Margin="10,429,0,0" VerticalAlignment="Top"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="10,455,0,0" VerticalAlignment="Top"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="290,453,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fiou" HorizontalAlignment="Left" Height="23" Margin="10,479,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox x:Name="idu" HorizontalAlignment="Left" Height="23" Margin="290,479,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <Button x:Name="udf" Content="Удалить" HorizontalAlignment="Left" Margin="10,507,0,0" VerticalAlignment="Top" Width="219" Click="udf_Click"/>
+        <Button x:Name="udid" Content="Удалить" HorizontalAlignment="Left" Margin="290,507,0,0" VerticalAlignment="Top" Width="52" Click="udid_Click"/>
+        <Button x:Name="obn" Content="Обновить данные" HorizontalAlignment="Left" Margin="10,383,0,0" VerticalAlignment="Top" Width="124" Click="obn_Click"/>
+
+    </Grid>
+</Window>
